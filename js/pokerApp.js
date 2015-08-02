@@ -1,0 +1,1 @@
+angular.module('pokerApp', ['pokerApp.controllers', 'pokerApp.services']);

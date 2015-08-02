@@ -1,0 +1,224 @@
+		body {
+			text-align: center;
+			font-family: Courier, "Lucida Console", monospace;
+			background-color: #212121; 
+		}
+
+		hr {  border: 0;
+			    height: 1px;
+			    background: #AAA;
+			    width: 80%;}	
+
+		#app{
+			margin-top: 75px;
+			margin-left: auto;
+		    margin-right: auto;
+		    width: 70%;
+		    background-color:#355C42;
+		    text-align: center;
+		    padding: 10px;
+		    border: 1px solid black;
+		    overflow: hidden; /* will contain if #first is longer than #second */
+		    position: relative;
+		    border-radius: 2px;
+		}
+
+		#tablica{
+			margin-left: auto;
+			margin-right: auto;
+			margin-top: 30px;
+			margin-bottom: 50px;
+			width: 85%;
+			font-size: 50px;
+			cursor: pointer;
+			border-width: 5px;
+		}
+
+		#tablica td{
+			width: 20%;
+			text-align: center;
+		}
+
+		.karte {
+			width: 90%;
+			height: 110px;
+			background-color: white; 
+			border-radius: 3px;
+			box-shadow:  2px 2px 2px #888888;
+			padding-top: 50px;
+			margin: auto;
+		}
+
+		#bottom{
+			margin-left: auto;
+			margin-right: auto;
+			position: absolute;
+            bottom: 5px;
+            width:30%;
+		}
+
+		#tablica_bodovi {
+			margin-left: auto;
+			margin-right: auto;
+            text-align: right;
+            margin-bottom: 10px;
+			width: 100%;
+		}
+
+		#tablica_bodovi td {
+			border-bottom: 1px grey;
+			font-size: 20px;
+			color: white;
+		}
+
+		#lijevo {
+		    width: 70%;
+		    float:left;
+		    border: 1px solid grey;
+		    padding-bottom: 20px;
+		    background-color: #4DB870;
+		}
+		#desno {
+		    overflow: hidden;
+		    font-size: 20px;
+		    color: white;
+		}
+
+		#okvir_liste {
+			color: white;
+		    width: 70%;
+		    margin: auto;
+		    border: 1px solid grey;
+		    padding-bottom: 20px;
+		    background-color: #4DB870;
+		}
+
+		#lista {
+			width: 40%;
+			height: 412px;
+			background-color: white; 
+			border-radius: 3px;
+			box-shadow:  2px 2px 2px #888888;
+			padding-top: 10px;
+			margin: 20px auto;
+		}
+
+		#karta_vm {
+			width: 20%;
+			height: 200px;
+			background-color: white; 
+			border-radius: 3px;
+			box-shadow:  2px 2px 2px #888888;
+			padding-top: 10px;
+			margin: 20px auto;
+			font-size: 50px;
+		}
+
+.myButton {
+	-moz-box-shadow:inset 0px 1px 3px 0px #91b8b3;
+	-webkit-box-shadow:inset 0px 1px 3px 0px #91b8b3;
+	box-shadow:inset 0px 1px 3px 0px #91b8b3;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #768d87), color-stop(1, #6c7c7c));
+	background:-moz-linear-gradient(top, #768d87 5%, #6c7c7c 100%);
+	background:-webkit-linear-gradient(top, #768d87 5%, #6c7c7c 100%);
+	background:-o-linear-gradient(top, #768d87 5%, #6c7c7c 100%);
+	background:-ms-linear-gradient(top, #768d87 5%, #6c7c7c 100%);
+	background:linear-gradient(to bottom, #768d87 5%, #6c7c7c 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#768d87', endColorstr='#6c7c7c',GradientType=0);
+	background-color:#768d87;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:5px;
+	border:1px solid #566963;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:32px 76px;
+	text-decoration:none;
+	text-shadow:0px -1px 0px #2b665e;
+}
+.myButton:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #6c7c7c), color-stop(1, #768d87));
+	background:-moz-linear-gradient(top, #6c7c7c 5%, #768d87 100%);
+	background:-webkit-linear-gradient(top, #6c7c7c 5%, #768d87 100%);
+	background:-o-linear-gradient(top, #6c7c7c 5%, #768d87 100%);
+	background:-ms-linear-gradient(top, #6c7c7c 5%, #768d87 100%);
+	background:linear-gradient(to bottom, #6c7c7c 5%, #768d87 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#6c7c7c', endColorstr='#768d87',GradientType=0);
+	background-color:#6c7c7c;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+.novaigra {
+	-moz-box-shadow:inset 0px 1px 3px 0px #91b8b3;
+	-webkit-box-shadow:inset 0px 1px 3px 0px #91b8b3;
+	box-shadow:inset 0px 1px 3px 0px #91b8b3;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #768d87), color-stop(1, #6c7c7c));
+	background:-moz-linear-gradient(top, #768d87 5%, #6c7c7c 100%);
+	background:-webkit-linear-gradient(top, #768d87 5%, #6c7c7c 100%);
+	background:-o-linear-gradient(top, #768d87 5%, #6c7c7c 100%);
+	background:-ms-linear-gradient(top, #768d87 5%, #6c7c7c 100%);
+	background:linear-gradient(to bottom, #768d87 5%, #6c7c7c 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#768d87', endColorstr='#6c7c7c',GradientType=0);
+	background-color:#768d87;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:5px;
+	border:1px solid #566963;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:4% 8%;
+	text-decoration:none;
+	text-shadow:0px -1px 0px #2b665e;
+}
+.novaigra:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #6c7c7c), color-stop(1, #768d87));
+	background:-moz-linear-gradient(top, #6c7c7c 5%, #768d87 100%);
+	background:-webkit-linear-gradient(top, #6c7c7c 5%, #768d87 100%);
+	background:-o-linear-gradient(top, #6c7c7c 5%, #768d87 100%);
+	background:-ms-linear-gradient(top, #6c7c7c 5%, #768d87 100%);
+	background:linear-gradient(to bottom, #6c7c7c 5%, #768d87 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#6c7c7c', endColorstr='#768d87',GradientType=0);
+	background-color:#6c7c7c;
+}
+.novaigra:active {
+	
+}
+
+.myButton_nova {
+	-moz-box-shadow:inset 0px 1px 3px 0px #91b8b3;
+	-webkit-box-shadow:inset 0px 1px 3px 0px #91b8b3;
+	box-shadow:inset 0px 1px 3px 0px #91b8b3;
+	background-color:#fa4d4d;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:5px;
+	border:1px solid #566963;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:32px 76px;
+	text-decoration:none;
+	text-shadow:0px -1px 0px #2b665e;
+}
+.myButton_nova:hover {
+	
+	background-color:#ffc226;
+}
+.myButton_nova:active {
+	position:relative;
+	top:1px;
+}
